@@ -1,0 +1,20 @@
+.body {
+    background-color: cyan;
+}
+.title {
+    text-align: center;
+    color: red;
+}
+.tabla {
+    border: 2px solid red;
+}
+.celdas_arriba {
+    border: 2px solid red;
+    color: red;
+    background-color: pink;
+}
+.celdas_abajo {
+    border: 2px solid red;
+    color: red;
+    background-color: pink;
+}
