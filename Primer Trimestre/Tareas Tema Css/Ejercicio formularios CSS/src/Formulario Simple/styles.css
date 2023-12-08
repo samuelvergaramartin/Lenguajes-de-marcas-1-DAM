@@ -1,0 +1,10 @@
+body {
+    background-color: darkblue;
+    color: white;
+}
+td {
+    padding: 5px;
+}
+table > tbody > tr:nth-child(6) > td {
+    vertical-align: top;
+}

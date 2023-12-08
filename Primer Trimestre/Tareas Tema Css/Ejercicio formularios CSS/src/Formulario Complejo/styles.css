@@ -1,0 +1,141 @@
+body {
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: black;
+    margin: auto;
+}
+body > div {
+    background-color: #ffcc99;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+form > div {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+form > div > div:first-child {
+    padding-right: 50px;
+}
+
+h1 {
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+form {
+    background-color: #ffcc99;
+}
+#label_direccion {
+    background-color: maroon;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 50px;
+}
+#label_nombre {
+    background-color: maroon;
+    color: white;
+    padding-right: 39px;
+    padding-left: 30px;
+    margin-right: 50px;
+    
+}
+#label_edad {
+    background-color: maroon;
+    color: white;
+    padding-right: 48px;
+    padding-left: 38px;
+    margin-right: 50px;
+    
+}
+label {
+    /*background-color: maroon;*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    /*padding: 10px;*/
+    /*padding-top: 1px;*/
+    /*padding-right: 30px;*/
+    /*padding-bottom: 1px;*/
+    /*padding-left: 30px;*/
+    text-align: center;
+    /*color: white;*/
+}
+#ingredientes {
+    background-color: maroon;
+    color: white;
+    padding-right: 17px;
+    padding-left: 26px;
+    margin-right: 50px;
+}
+#input_ingredientes {
+    padding-top: 10px;
+    background-color: #ffcc99;
+}
+input[type="radio"] {
+    color: cyan;
+}
+#ingredientes_block {
+    margin-right: -97px;
+}
+#tamano {
+    background-color: maroon;
+    color: white;
+    padding-right: 17px;
+    padding-left: 20px;
+    margin-right: 50px;
+}
+#tamano_input {
+    padding-top: 10px;
+}
+#tamano_block {
+    margin-right: -47px;
+}
+#pago {
+    background-color: maroon;
+    color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 50px;
+}
+#pago_input {
+    text-align: center;
+    padding-top: 10px;
+}
+select[id="pago_select"] {
+    margin-left: -50px;
+    padding-right: 50px;
+}
+#instrucciones_esp_block {
+    flex-direction: column;
+}
+#instrucciones_esp {
+    text-align: center;
+    background-color: maroon;
+    color: white;
+}
+#texto_area {
+    text-align: center;
+    padding-top: 10px;
+}
+#botones {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+#enviar {
+    margin-right: 210px;
+}
+#borrar {
+    margin-left: 80px;
+}
