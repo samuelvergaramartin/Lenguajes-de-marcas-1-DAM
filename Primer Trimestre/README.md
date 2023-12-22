@@ -1,3 +1,5 @@
-# PRIMER TRIMESTRE
+# Exámenes pendientes
+- Ninguno
 
-- Aquí están todas las actividades de los temas dados en el primer trimestre.
+# Tareas pendientes
+- Ninguno

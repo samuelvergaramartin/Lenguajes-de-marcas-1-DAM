@@ -1,0 +1,182 @@
+#contenedor_grid {
+    display: grid;
+    grid-template-columns: 1fr, 4fr, 1fr;
+    grid-template-rows: 1fr, 30px, 5fr, 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img {
+    height: 150px;
+}
+header {
+    background-color: green;
+    color: whitesmoke;
+    /*Hay q pone el tipo de letra en PinkBloom.ttf*/
+    font-size: 50px;
+}
+nav {
+    background-color: rgb(0,64,0);
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav div {
+    background-color: rgba(151,207,51,0.3);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*Revisar imagen*/
+    background-image: url("./iesbelen_fondo.jpg")
+}
+section h1 {
+    font-size: 2em;
+    text-align: justify;
+    /*Revisar negrita subrayada*/
+}
+#seccion_principal article {
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.seccion_secundaria_1 {
+    display: flex;
+}
+.seccion_secundaria_1 article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 40px;
+}
+.seccion_secundaria_1 article:first-child {
+    background-color: chartreuse;
+}
+.seccion_secundaria_1 article:nth-child(2){
+    background-color: white;
+}
+.seccion_secundaria_1 article:last-child {
+    background-color: darkgreen;
+}
+.seccion_secundaria_1 h3 {
+    text-align: center;
+    color: grey;
+    font-size: 1.2em;
+}
+.seccion_secundaria_2 {
+    background-color: #e0d9d9;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-width: 3px;
+    border-color: grey;
+    border-radius: 40px, 5px;
+}
+.seccion_secundaria_2 article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-width: 3px;
+    border-radius: 40px, 5px;
+    background-color: white;
+    text-align: justify;
+}
+.anuncio {
+    background: linear-gradient(green,yellow);
+}
+.anuncio div {
+    text-align: left;
+    /*Revisar lo del texto en negrita*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.anuncio #titulo {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.anuncio div:nth-child(2) {
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+}
+.anuncio div:nth-child(4) {
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+}
+.anuncio div:nth-child(1) {
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+}
+.anuncio div:nth-child(3) {
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+}
+#junta {
+    background: linear-gradient(yellow, rgb(0,63,0));
+    /*Revisar lo del fondo gradiente*/
+}
+#junta img {
+    height: 100%;
+    /*Revisar la altura maxima de la imagen*/
+}
+footer {
+    background-color: rgb(0,63,0);
+    padding-bottom: 40px;
+    font-size: 0.85em;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}

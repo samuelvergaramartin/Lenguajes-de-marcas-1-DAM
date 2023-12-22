@@ -1,0 +1,34 @@
+.body {
+    background-color: cyan;
+}
+.title {
+    color: red;
+}
+.title_container {
+    margin-left: 45%;
+    margin-right: auto;
+    display: inline-block;
+    border: 4px solid #f700ff;
+    padding: 5px;
+}
+.tabla {
+    border: 2px solid red;
+}
+.celdas_arriba {
+    border: 2px solid red;
+    color: red;
+    background-color: pink;
+}
+.celdas_abajo {
+    border: 2px solid red;
+    color: red;
+    background-color: pink;
+}
+.images {
+    width: 500px;
+    height: 400px;
+}
+hr {
+    border-width: 4px;
+    border-color: #f700ff
+}

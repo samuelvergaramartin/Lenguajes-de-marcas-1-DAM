@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <title>Página de contacto</title>
+</head>
+<body class="body">
+    <!--Título de la página-->
+    <div class="title_container">
+        <h1 class="title">Contacto</h1>
+    </div>
+    <!--Menú principal-->
+    <div>
+        <ol>
+            <li><a href="../../index.html">Página principal</a></li>
+            <li><a href="./portafolio.html">Portafolio</a></li><!--Página local relacionada con tu tema-->
+            <li><a href="./contacto.html">Contacto</a></li><!--Página local relacionada con tu tema-->
+            <li><a href="https://www.github.com/samuelvergaramartin">Mi GitHub</a></li><!--Página externa relacionada con tu tema-->
+        </ol>
+    </div>
+    <!--Separador después del menu-->
+    <div>
+        <hr>
+    </div>
+    <!--Formulario action="./page3.schema.html"-->
+    <div>
+        <fieldset class="fieldset">
+            <legend class="legend">Formulario de contacto</legend>
+            <form>
+                <label class="label-1">Nombre y Apellidos: </label>
+                <input id="c1" type="text"> <br>
+                <label class="label-2">Correo electrónico: </label>
+                <input id="c2" type="text"> <br>
+                <label class="label-3">DNI: </label>
+                <input id="c3" type="text"> <br> <br>
+                <select id="select" name="string-select-menu" id="string-select-menu">
+                    <option value="opt1">Soy profesor</option>
+                    <option value="opt2">Soy alumno</option>
+                    <option value="opt3">Ninguna de las anteriores</option>
+                </select> <br> <br>
+                <button class="botones" id="enviar">
+                    Enviar
+                </button>
+                <button class="botones" id="borrar">
+                    Borrar
+                </button>
+            </form>
+        </fieldset>
+    </div>
+    <script type="module" src="../backend/src/scripts/forms.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style-page3.schema.css">
+    <title>Título página 3</title>
+</head>
+<body class="body">
+    <!--Título de la página-->
+    <div>
+        <h1 class="title">Título de la página</h1>
+    </div>
+    <!--Menú principal-->
+    <div>
+        <ol>
+            <li><a href="../../index.schema.html">Página principal</a></li>
+            <li><a href="./page2.schema.html">Página 2</a></li><!--Página local relacionada con tu tema-->
+            <li><a href="./page3.schema.html">Página 3</a></li><!--Página local relacionada con tu tema-->
+            <li><a href="https://www.example.com">Página externa</a></li><!--Página externa relacionada con tu tema-->
+        </ol>
+    </div>
+    <!--Separador después del menu-->
+    <div>
+        <hr>
+    </div>
+    <!--Formulario action="./page3.schema.html"-->
+    <div>
+        <fieldset>
+            <legend>Formulario</legend>
+            <form>
+                Campo 1: <input id="c1" type="text"> <br>
+                Campo 2: <input id="c2" type="text"> <br>
+                Campo 3: <input id="c3" type="text"> <br> <br>
+                <select id="select" name="string-select-menu" id="string-select-menu">
+                    <option value="opt1">Opción 1</option>
+                    <option value="opt2">Opción 2</option>
+                    <option value="opt3">Opción 3</option>
+                </select> <br> <br>
+                <button id="enviar">
+                    Enviar
+                </button>
+                <button id="borrar">
+                    Borrar
+                </button>
+            </form>
+        </fieldset>
+    </div>
+    <script src="../backend//src/scripts/forms.js"></script>
+</body>
+</html>

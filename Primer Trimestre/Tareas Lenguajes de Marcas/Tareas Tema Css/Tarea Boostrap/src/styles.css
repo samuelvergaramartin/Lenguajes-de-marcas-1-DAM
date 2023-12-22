@@ -1,0 +1,217 @@
+/*body {
+    display: grid;
+    grid-template-columns: 8% 1fr 8%;
+    grid-template-rows: 850px 2fr 700px;
+}*/
+
+#contenedor_cabecera {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(/resources/img/portada.png);
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menu {
+    margin: 50px;
+    text-align: right;
+}
+
+#contenedor_cabecera .menu a {
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+#contenido-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-header {
+    color: white;
+    font-size: 150px;
+    border-bottom: 2px solid rgb(9, 176, 231);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#texto-header {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#test-line {
+    border-color: cyan;
+    /*border-width: 3px;*/
+    margin-left: 100px;
+    margin-right: 100px;
+}
+main {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: auto;
+}
+
+#action-header {
+    margin-top: 20px;
+    border: 1px solid rgb(9, 176, 231);
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+main .quienes {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 20px;
+}
+
+main .quienes-titulo {
+    color: black;
+    font-size: 40px;
+}
+
+main .quienes-parrafo {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main .contenido-cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+main .tarjeta {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+main .parrafo-tarjeta {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+main .portafolio {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 20px;
+}
+
+main .portafolio-textos h2 {
+    color: rgb(21, 63, 82);
+    font-size: 40px;
+}
+
+main .portafolio-textos p {
+    color: rgb(173, 173, 173);
+    font-size: 20px;
+}
+
+main .galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .fotos img {
+    border-radius: 10px;
+    width: 75%;
+    height: 75%;
+}
+
+footer {
+    grid-column: 2;
+    grid-row: 3;
+    background-image: url(../resources/img/footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+footer * {
+    background: none ;
+}
+
+footer .footer-textos h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+footer .footer-textos p {
+    color: gray;
+    font-size: 20px;
+}
+
+.formulario * {
+    font-size: 15px;
+}
+
+footer .formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+footer #nombre {
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer #correo {
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer #mensaje {
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+footer .botonderecha {
+    color: white;
+    border: 1px solid rgb(9, 176, 231);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}

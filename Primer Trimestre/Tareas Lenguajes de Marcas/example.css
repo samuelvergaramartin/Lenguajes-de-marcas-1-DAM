@@ -1,0 +1,8 @@
+@font-face {
+    font-family: BigBlueTermPlusNerdFontMono-Regular;
+    src: url("../fonts/BigBlueTermPlusNerdFontMono-Regular.ttf");
+}
+
+h1 {
+    font-family: BigBlueTermPlusNerdFontMono-Regular;
+}
